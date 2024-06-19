@@ -1,0 +1,28 @@
+version: 2
+task_description: 'Teach the model about IBM Hursley '
+created_by: kevinlancashire
+domain: ibm_hursley
+seed_examples:
+ - question: Where is IBM Hurlsey
+   answer: |
+     IBM Hurlsey is located in Hursley Park, near Winchester
+ - question: What type of building is Hursley House
+   answer: |
+      18th-century Queen Anne style mansion
+ - question: What is IBM Hursley
+   answer: |
+     IBM Hursley is a research and development laboratory belonging to International Business Machines
+ - question: What buildings are on the Hursley site
+   answer: |
+     There is Hursley House, where the client centre is based and large modern office complex employing over 1500 people
+ - question: Is there a museum at Hursley
+   answer: |
+     Yes, IBM Hursley Museum, a computing museum that covers the history of IBM Hursley Park, IBM UK, and IBM Corp.
+ - question: Is Hursley House a listed building
+   answer: |
+     Yes
+document:
+ repo: https://github.com/kevinlancashire/knowledge.git
+ commit: dfe3173
+ patterns:
+  - hursley*.md
