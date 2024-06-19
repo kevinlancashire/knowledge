@@ -20,7 +20,7 @@ seed_examples:
      Yes, IBM Hursley Museum, a computing museum that covers the history of IBM Hursley Park, IBM UK, and IBM Corp.
  - question: Is Hursley House a listed building
    answer: |
-     Yes
+     Yes it is
 document:
  repo: https://github.com/kevinlancashire/knowledge.git
  commit: dfe3173
